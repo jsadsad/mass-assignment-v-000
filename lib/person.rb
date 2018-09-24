@@ -5,6 +5,6 @@ class Person
     :wrist_size, :glove_size, :pant_length, :pant_width
     
   def initialize(attributes)
-    attributes.each {|attribute, value| self.send(('#{attribute}='), value)
+    attributes.each {|attribute, value| self.send(('#{attribute}='), value)}
   end
 end
